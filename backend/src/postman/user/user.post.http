@@ -1,0 +1,35 @@
+@url_dev=https://devlife-be.up.railway.app/v1/api
+
+POST {{url_dev}}/create_user
+Content-Type: application/json
+
+{
+	"wallet_address": "0x2"
+}
+
+
+# id rename to _id
+# GET {{url_dev}}/get_user
+# Content-Type: application/json
+
+# {
+# 	"_id": "667d311201834cb48c9bbe2f"
+# }
+
+# POST {{url_dev}}/update_user
+# Content-Type: application/json
+
+# {
+# 	"_id": "667b927b646c87ed2d63c333",
+# 	"firstname": "",
+# 	"lastname": "",
+# 	"email": "",
+# 	"team_id": ""
+# }
+
+POST {{url_dev}}/get_user_by_email
+Content-Type: application/json
+
+{
+	"email": "letung67898@gmail.com"
+}

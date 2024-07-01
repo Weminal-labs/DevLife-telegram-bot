@@ -1,0 +1,24 @@
+@url_dev=http://localhost:3000/v1/api
+
+# POST {{url_dev}}/create_team
+# Content-Type: application/json
+
+# {
+# 	"team_name": "Weminal",
+# 	"user_id": "667d311201834cb48c9bbe2f"
+# }
+
+POST {{url_dev}}/team_invite
+Content-Type: application/json
+
+{
+	"team_id": "667da3fe1623585d26576bcb",
+	"user_email": "letung678976@gmail.com"
+}
+
+# POST {{url_dev}}/get_team_by_id
+# Content-Type: application/json
+
+# {
+# 	"team_id": "667da3fe1623585d26576bcb"
+# }
