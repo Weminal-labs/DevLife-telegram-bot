@@ -17,6 +17,9 @@ import { RedirectResult, UpdateTeamResponse } from "../types";
 import Knowledge from "../components/Knowledge";
 import SubKnowledge from "../components/SubKnowledge";
 import { BiconomySmartAccountV2 } from "@biconomy/account"; // Added this line
+import eruda from 'eruda'
+
+eruda.init()
 
 function Home() {
   const { redirectResult, setUser, user, setRedirectResult } =

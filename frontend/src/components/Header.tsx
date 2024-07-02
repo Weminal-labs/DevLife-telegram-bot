@@ -253,26 +253,26 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
             
           <RightSideContainer>
-            <ButtonContainer className="space-x-4">
-            <IconButton>
-                <i className="nes-icon cog is-small"></i>
-              </IconButton>
-              <IconButton>
-                <i className="nes-icon save is-small"></i>
-              </IconButton>
-              <IconButton>
-                <i className="nes-icon trophy is-small"></i>
-              </IconButton>
-              <IconButton>
-                <i className="nes-icon user is-small"></i>
-              </IconButton>
-              <IconButton>
-                <i className="nes-icon chart is-small"></i>
-              </IconButton>
-              <IconButton>
-                <i className="nes-icon book is-small"></i>
-              </IconButton>
-            </ButtonContainer>
+          <ButtonContainer className="space-x-4">
+                <IconButton>
+                  <i className="fas fa-cog"></i>
+                </IconButton>
+                <IconButton>
+                  <i className="fas fa-save"></i>
+                </IconButton>
+                <IconButton>
+                  <i className="fas fa-trophy"></i>
+                </IconButton>
+                <IconButton>
+                  <i className="fas fa-user-secret"></i>
+                </IconButton>
+                <IconButton>
+                  <i className="fas fa-chart-line"></i>
+                </IconButton>
+                <IconButton>
+                  <i className="fas fa-book"></i>
+                </IconButton>
+              </ButtonContainer>
           </RightSideContainer>
         </div>
         </>

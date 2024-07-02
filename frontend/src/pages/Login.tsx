@@ -68,11 +68,29 @@ const Login = () => {
           className="mb-4 rounded-lg"
           style={{ width: "300px", height: "auto" }}
         />
-        <h1>The Devlife Game</h1>
-        <button onClick={handleSocialLogin}>
+        <h1 style={{ fontSize: "5vw" }}>The Devlife Game</h1>
+        <button className="mt-5" onClick={handleSocialLogin}>
           <div className="flex flex-row items-center">
+          <style>
+              {`
+                @keyframes blink {
+                  0% { opacity: 1; color: red; }
+                  12.5% { opacity: 0.85; color: orange; }
+                  25% { opacity: 0.75; color: yellow; }
+                  37.5% { opacity: 0.65; color: green; }
+                  50% { opacity: 0.5; color: blue; }
+                  62.5% { opacity: 0.75; color: indigo; }
+                  75% { opacity: 0.85; color: violet; }
+                  87.5% { opacity: 0.9; color: black; }
+                  100% { opacity: 1; color: red; }
+                }
+                .blinking {
+                  animation: blink 1s infinite;
+                }
+              `}
+            </style>
             <FcGoogle size={"2.5rem"} />
-            <span className="font-bold ml-2">Log in with Google</span>
+            <span className="font-bold ml-2 blinking ">Log in with Google</span>
           </div>
         </button>
       </div>
