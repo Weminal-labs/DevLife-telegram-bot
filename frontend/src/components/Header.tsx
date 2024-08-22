@@ -235,9 +235,9 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex flex-row gap-10">
           <LeftSideContainer>
             <ButtonStyle>
-              <LeftButton onClick={onLeftButtonClick}>
-                <Icon src="/assets/UI/console_1.png" alt="DevLife" />
-              </LeftButton>
+              {/* <LeftButton onClick={onLeftButtonClick}> */}
+                <Icon src="/assets/UI/console_1.png" alt="DevLife" style={{ width: '300px', height: 'auto' }} />
+              {/* </LeftButton> */}
             </ButtonStyle>
           </LeftSideContainer>
           <ButtonStyle>
